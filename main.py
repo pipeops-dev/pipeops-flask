@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return "<h1>Welcome to PipeOps</h1>"
+  return "<h1>Welcome to PipeOps Flask</h1>"
 
 if __name__ == '__main__':
   # Use PORT environment variable if available, or default to 5000
