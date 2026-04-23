@@ -1,0 +1,36 @@
+# filepath: /home/lamara/Work/pipeops-flask/.dockerignore
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.egg-info
+.eggs
+.pytest_cache
+.coverage
+htmlcov
+.tox/
+.venv
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Documentation
+README.md
+LICENSE
+
+# Docker
+Dockerfile
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
